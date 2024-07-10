@@ -3,7 +3,7 @@ from flask_mysqldb import MySQL
 def create_connection(app):
     app.config['MYSQL_HOST'] = 'localhost'
     app.config['MYSQL_USER'] = 'root'
-    app.config['MYSQL_PASSWORD'] = 'Password@123'
+    app.config['MYSQL_PASSWORD'] = 'password123'
 
 def create_database(mysql,app):
     try:

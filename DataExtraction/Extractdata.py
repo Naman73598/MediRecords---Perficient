@@ -3,11 +3,7 @@ import os
 import json
 
 
-
-
 def return_dataFrame(folder_path):
-    
- 
     files = os.listdir(folder_path)
     file_name = files[0]
     file_path = folder_path + file_name
