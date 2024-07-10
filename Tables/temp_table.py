@@ -4,7 +4,7 @@ def create_temp_table(mysql, app):
         with app.app_context():
             cur = mysql.connection.cursor()
             cur.execute('''CREATE TABLE IF NOT EXISTS Records (
-                            ID INT PRIMARY KEY,
+                            ID INT AUTO_INCREMENT PRIMARY KEY,
                             Name VARCHAR(50),
                             Age INT,
                             Gender VARCHAR(10),
