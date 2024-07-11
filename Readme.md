@@ -58,6 +58,7 @@ To install these packages, follow these steps:
    pip install flask-mysqldb
    pip install matplotlib
    pip install numpy
+   pip install flask_jwt_extended
  
  
 # Application Setup and Instructions
